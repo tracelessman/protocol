@@ -9,6 +9,8 @@ let msg = {
     },
     body:{
         chatId:'',//会话id
+        bpId:'',//商户id
+        groupType:'',//群类型
         name:'',
         members:[{
             uid:'',
@@ -26,6 +28,8 @@ let ack = {
     body:{
         mid:'',
         time:'',
-        order:''//服务端的时间戳和序号 客户端通过该信息决定生成的通知消息的服务端序号和时间
+        order:'',//服务端的时间戳和序号 客户端通过该信息决定生成的通知消息的服务端序号和时间
+        status:0,
+        err:''
     }
 }

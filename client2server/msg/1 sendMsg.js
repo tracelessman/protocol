@@ -21,7 +21,7 @@ let data = '' //文本
 data ={
     width:1024,
     height:768,
-    stream:'',
+    thumbnail:'',//缩略图 首帧图
     url:''
 },
 //4-通话
