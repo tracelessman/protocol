@@ -45,7 +45,7 @@ let ack = {
                 backImg:'',
                 role:0,//是否管理员
                 nickName:'',
-                extConfig:{}
+                ext:{}
             }
         }],
         offlineMsgs:[]//离线消息 msg的格式和具体消息类型格式一样
