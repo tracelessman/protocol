@@ -50,7 +50,7 @@ let ack = {
     },
     body:{
         mid:'',//消息id
-        time:'',
+        time:12345678,
         order:'',
         targetsNume:100
     }

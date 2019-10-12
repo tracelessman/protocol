@@ -5,7 +5,7 @@ let msg = {
         uid:'',//发送者id
         did:'',//发送者设备id
         action:'sendMsg',
-        time:'',
+        time:12345678,
         order:''
     },
     body:{
