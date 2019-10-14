@@ -10,7 +10,8 @@ let msg = {
         order:''
     },
     body:{
-        chatId:''//会话id
+        chatId:'',
+        pic:[{url:'',name:''}]
     }
 }
 

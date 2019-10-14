@@ -14,7 +14,8 @@ let msg = {
         members:[{
             uid:'',
             name:''
-        }]//uid列表
+        }],//uid列表
+        pic:[{url:'',name:''}]
     }
 }
 

@@ -8,7 +8,8 @@ let msg = {
         action:'leaveGroup'
     },
     body:{
-        chatId:''//会话id
+        chatId:'',//会话id
+        pic:[{url:'',name:''}]
     }
 }
 
