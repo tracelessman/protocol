@@ -9,7 +9,7 @@ let msg = {
     },
     body:{
         chatId:'',//会话id
-        bpId:'',//商户id
+        ownerId:'',//商户id
         groupType:'',//群类型
         name:'',
         members:[{
