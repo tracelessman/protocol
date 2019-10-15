@@ -48,6 +48,27 @@ let ack = {
                 ext:{}
             }
         }],
-        offlineMsgs:[]//离线消息 msg的格式和具体消息类型格式一样
+        offlineMsgs:[{
+            header:{
+                version:'1.0',
+                mid:'',//uuid 消息id
+                uid:'',//发送者id
+                did:'',//发送者设备id
+                action:'sendMsg',
+                time:12345678,
+                order:''
+            },
+            body:{
+                chatId:'',//会话id
+                chatType:0,//0 私聊 1 群聊 其他待扩展会话
+                at:[{uid:'0'},{uid:'',name:''}],//0 是所有人 888388 是具体人员uid
+                type:1,//消息类型 
+                data:data//见data
+            }
+        }],//离线消息 msg的格式和具体消息类型格式一样
+        offlineReadReport:[{
+            mid:'',
+            reporterUid:''
+        }]
     }
 }
