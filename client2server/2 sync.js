@@ -64,15 +64,12 @@ let ack = {
                 at:[{uid:'0'},{uid:'',name:''}],//0 是所有人 888388 是具体人员uid
                 type:1,//消息类型 
                 data:data//见data
-            },
-            ext:{
-                status:0//消息状态
             }
         }],//离线消息 msg的格式和具体消息类型格式一样
         offlineReadReports:[{
             mid:'',
-            senderId:'',
-            receiverId:''
+            msgSenderId:'',//如果消息的发送者是自己 reporters是别人给自己的已阅报告；如果消息的发送者是别人 reporters就不传，代表自己成功发送了已阅报告；
+            reporters:[]
         }]
     }
 }
