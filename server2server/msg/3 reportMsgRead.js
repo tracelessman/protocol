@@ -7,12 +7,12 @@ let msg = {
         action:'reportMsgRead'
     },
     body:{
-        detail:[{
-            senderUid:'',//消息的发送者
-            chats:[{
-                chatId:'',
-                msgIds:[]
-            }]
+        chats:[{
+            chatId:'',
+            firstMsgId:'',
+            firstMsgOrder:'',
+            lastMsgId:'',//chat内最后一条已读消息的id
+            lastMsgOrder:''
         }]
     },
     targets:[]
