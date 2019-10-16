@@ -4,15 +4,14 @@ let msg = {
         mid:'',//uuid 消息id
         uid:'',//发送者id
         did:'',//发送者设备id
-        action:'reportMsgRead'
+        action:'readReport'
     },
     body:{
-        detail:[{
-            senderUid:'',//消息的发送者
-            chats:[{
-                chatId:'',
-                msgIds:[]
-            }]
+        chats:[{
+            chatId:'',
+            lastMsgId:'',//chat内最后一条已读消息的id
+            lastMsgOrder:'',
+            targetUids:[] //报告目标 也就是未读消息的发送者
         }]
     }
 }
