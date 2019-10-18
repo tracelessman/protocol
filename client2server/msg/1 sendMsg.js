@@ -46,12 +46,13 @@ data = {
 let ack = {
     header:{
         version:'1.0',
-        action:'ack'
+        action:'ack',
+        time:12345678
     },
     body:{
         mid:'',//消息id
-        time:12345678,
         order:'',
+        time:12345678,
         targetsNum:100
     }
 }

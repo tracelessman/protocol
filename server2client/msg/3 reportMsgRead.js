@@ -4,7 +4,8 @@ let msg = {
         mid:'',//uuid 消息id
         uid:'',//发送者id
         did:'',//发送者设备id
-        action:'readReport'
+        action:'readReport',
+        time:124343
     },
     body:{
         chats:[{

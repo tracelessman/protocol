@@ -14,7 +14,8 @@ let msg = {
 let ack = {
     header:{
         version:'1.0',
-        action:'ack'
+        action:'ack',
+        time:12345678
     },
     body:{
         mid:''//消息id

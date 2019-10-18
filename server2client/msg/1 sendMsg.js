@@ -13,7 +13,8 @@ let msg = {
         chatType:0,//0 私聊 1 群聊 其他待扩展会话
         at:[{uid:'0'},{uid:'',name:''}],//0 是所有人 888388 是具体人员uid
         type:1,//消息类型 
-        data:data//见data
+        data:data,//见data
+        targetsNum:100
     }
 }
 //1-文本 
