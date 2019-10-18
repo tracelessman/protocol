@@ -18,7 +18,9 @@ let ack = {
         time:12345678
     },
     body:{
-        mid:''//消息id
+        mid:'',//消息id
+        status:0,//0成功 1失败
+        err:''//失败原因
     }
 }
 
