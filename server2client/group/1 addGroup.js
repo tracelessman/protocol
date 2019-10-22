@@ -14,6 +14,7 @@ let msg = {
         name:'',
         groupType:4,
         ownerId:'',
+        notifyTypeId:'',
         members:[{
             uid:'',
             name:''//冗余数据
