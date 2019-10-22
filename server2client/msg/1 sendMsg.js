@@ -17,35 +17,62 @@ let msg = {
         targetsNum:100
     }
 }
-//1-文本 
+//文本 
 let data = '' //文本
 
-//2—照片  3-视频
+//照片  视频
 data ={
     width:1024,
     height:768,
-    stream:'',
+    thumbnail:'',//缩略图 首帧图
     url:''
 },
-//4-通话
+//通话
 data = {
     duration:99
 }
-//9-文件
+//文件
 data = {
     size:99,
     suffix:'zip'
 } //url
-//8-位置 
+//位置 
 data = {
     longitude:343.98,//经度
     latitude:34.8,//维度
     title:''//位置信息
 }
-//10-音频
+//音频
 data = {
     duration:10,
 }
+//业务通知
+data = {
+    notifyType:"work",
+    "bizType": "",//审批/考勤打卡/公告/会议提醒
+    "title": "你的请假申请已同意，请知晓",
+    "content": "关于放假通知：10.1-10.8日全体员工放假",
+    "itemList": [
+         {
+             "label": "请假类型",
+             "value": "调休"
+         },          
+         {
+             "label": "开始时间",
+             "value": "2019-09-09"
+         },
+         {
+             "label": "结束时间",
+             "value": "2019-09-19"
+         },
+         {
+             "label": "备注",
+             "value": "你好你好"
+         },
+    ],
+     "detailTitle": "",//已同意/已拒绝/查看详情/
+     "detailUrl": "http://xxx/"
+   }
 let ack = {
     header:{
         version:'1.0',
