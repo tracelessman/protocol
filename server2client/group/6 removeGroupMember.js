@@ -15,7 +15,7 @@ let msg = {
             uid:'',
             name:''
         }],//uid列表
-        pic:[{url:'',name:''}]
+        pic:[{uid:'',url:'',name:''}]
     }
 }
 

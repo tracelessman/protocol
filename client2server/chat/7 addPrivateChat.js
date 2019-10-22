@@ -9,7 +9,7 @@ let msg = {
     },
     body:{
         oppositeUid:'',//对方uid
-        pic:[{url:'',name:''}]//双方的名称 和 头像
+        pic:[{uid:'',url:'',name:''}]//双方的名称 和 头像
     }
 }
 
