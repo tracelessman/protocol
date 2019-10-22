@@ -5,10 +5,9 @@ let msg = {
         uid:'',//发送者id
         did:'',//发送者设备id
         name:'',//冗余数据
-        action:'addPrivateChat'
+        action:'updateChatPic'
     },
     body:{
-        oppositeUid:'',//对方uid
         pic:[{url:'',name:''}]//双方的名称 和 头像
     }
 }
@@ -21,7 +20,6 @@ let ack = {
     },
     body:{
         mid:'',
-        chatId:'',//服务端生成的chat id
         status:0,
         err:''
     }
