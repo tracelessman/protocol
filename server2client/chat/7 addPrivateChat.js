@@ -9,7 +9,7 @@ let msg = {
     },
     body:{
         chatId:'',
-        oppositeUid:''//对方uid
+        pic:[{uid:'',url:'',name:''}] 
     }
 }
 
