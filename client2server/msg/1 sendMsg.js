@@ -14,34 +14,38 @@ let msg = {
         data:data//见data
     }
 }
-//1-文本 
+//文本 
 let data = '' //文本
 
-//2—照片  3-视频
+//照片  视频
 data ={
     width:1024,
     height:768,
     thumbnail:'',//缩略图 首帧图
     url:''
 },
-//4-通话
+//通话
 data = {
     duration:99
 }
-//9-文件
+//文件
 data = {
     size:99,
     suffix:'zip'
 } //url
-//8-位置 
+//位置 
 data = {
     longitude:343.98,//经度
     latitude:34.8,//维度
     title:''//位置信息
 }
-//10-音频
+//音频
 data = {
     duration:10,
+}
+//通知 具体待定
+data = {
+
 }
 let ack = {
     header:{

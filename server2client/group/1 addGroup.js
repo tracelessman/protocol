@@ -12,11 +12,13 @@ let msg = {
     body:{
         chatId:'',//会话id
         name:'',
+        groupType:4,
+        ownerId:'',
         members:[{
             uid:'',
             name:''//冗余数据
         }],//uid列表
-        pic:[{url:'',name:''}]
+        pic:[{url:'',name:''}] //可能没有 如目前通知类型的就没有
     }
 }
 
