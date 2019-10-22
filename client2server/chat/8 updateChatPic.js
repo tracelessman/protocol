@@ -8,6 +8,7 @@ let msg = {
         action:'updateChatPic'
     },
     body:{
+        chatId:'',
         pic:[{uid:'',url:'',name:''}]//双方的名称 和 头像
     }
 }
