@@ -24,6 +24,7 @@ let ack = {
                 chatId:'',
                 status:0,//chat状态
                 name:'',
+                pic:[],//
                 type:0,//
                 maseterUid:'',
                 notice:'',
