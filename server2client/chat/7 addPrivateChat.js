@@ -5,7 +5,8 @@ let msg = {
         uid:'',//发送者id
         did:'',//发送者设备id
         name:'',//冗余数据
-        action:'addPrivateChat'
+        action:'addPrivateChat',
+        time:1234567
     },
     body:{
         chatId:'',

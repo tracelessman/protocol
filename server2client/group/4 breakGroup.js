@@ -5,8 +5,7 @@ let msg = {
         uid:'',//发送者id
         did:'',//发送者设备id
         action:'breakGroup',
-        time:'',
-        order:''
+        time:123456
     },
     body:{
         chatId:''//会话id

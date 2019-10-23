@@ -4,10 +4,8 @@ let msg = {
         mid:'',//uuid 消息id
         uid:'',//发送者id
         did:'',//发送者设备id
-        name:'',
         action:'addGroupMember',
-        time:'',
-        order:''
+        time:123456
     },
     body:{ //老成员收到的body
         chatId:'',

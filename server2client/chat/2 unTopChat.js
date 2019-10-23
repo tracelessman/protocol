@@ -4,7 +4,8 @@ let msg = {
         mid:'',//uuid 消息id
         uid:'',//发送者id
         did:'',//发送者设备id
-        action:'unTopChat'
+        action:'unTopChat',
+        time:1234567
     },
     body:{
         chatId:''//会话id

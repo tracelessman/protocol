@@ -5,7 +5,7 @@ let msg = {
         uid:'',//发送者id
         did:'',//发送者设备id
         action:'topChat',
-        time:''
+        time:1234567
     },
     body:{
         chatId:''//会话id
