@@ -2,8 +2,6 @@ let msg = {
     header:{
         version:'1.0',
         mid:'',//uuid 消息id
-        uid:'',//发送者id
-        did:'',//发送者设备id
         action:'sync'
     },
     body:{
@@ -15,10 +13,13 @@ let msg = {
 let ack = {
     header:{
         version:'1.0',
-        action:'ack'
+        action:'ack',
+        time:1234567
     },
     body:{
         mid:'',
+        status:0,//0成功 1失败
+        err:'',//失败原因
         chats:[{
             chat:{
                 chatId:'',
@@ -66,12 +67,7 @@ let ack = {
                 type:1,//消息类型 
                 data:data//见data
             }
-        }],//离线消息 msg的格式和具体消息类型格式一样
-        // offlineReadReports:[{
-        //     mid:'',
-        //     msgSenderId:'',//如果消息的发送者是自己 reporters是别人给自己的已阅报告；如果消息的发送者是别人 reporters就不传，代表自己成功发送了已阅报告；
-        //     reporters:[]
-        // }],
+        }],
         receivedReadReports:[{
             mid:'',
             reporters:['uid']

@@ -2,8 +2,6 @@ let msg = {
     header:{
         version:'1.0',
         mid:'',//uuid 消息id
-        uid:'',//发送者id
-        did:'',//发送者设备id
         action:'sendMsg'
     },
     body:{
@@ -54,7 +52,9 @@ let ack = {
         time:12345678
     },
     body:{
-        mid:'',//消息id
+        mid:'',//消息id,
+        status:0,
+        err:'',
         order:'',
         time:12345678,
         targetsNum:100

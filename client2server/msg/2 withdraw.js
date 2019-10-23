@@ -2,9 +2,6 @@ let msg = {
     header:{
         version:'1.0',
         mid:'',//uuid 消息id
-        uid:'',//发送者id
-        did:'',//发送者设备id
-        name:'',
         action:'withdraw'
     },
     body:{
@@ -15,9 +12,12 @@ let msg = {
 let ack = {
     header:{
         version:'1.0',
-        action:'ack'
+        action:'ack',
+        time:123456
     },
     body:{
-        mid:''
+        mid:'',
+        status:0,
+        err:'',
     }
 }
