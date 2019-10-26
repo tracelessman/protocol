@@ -8,7 +8,8 @@ let msg = {
         time:1234567
     },
     body:{
-        chatId:''//会话id
+        chatId:'',//会话id
+        topTime:12345
     }
 }
 
