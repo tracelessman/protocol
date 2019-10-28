@@ -8,7 +8,8 @@ let msg = {
         time:1234567
     },
     body:{
-        chatId:''//会话id
+        chatId:'',//会话id
+        memoryLine:''//清空时最后一条消息的服务端时间
     }
 }
 
