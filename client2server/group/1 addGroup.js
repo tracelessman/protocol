@@ -5,6 +5,7 @@ let msg = {
         action:'addGroup'
     },
     body:{
+        chatId:'',
         ownerId:'',//商户id
         groupType:0,//群类型
         name:'',
