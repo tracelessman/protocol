@@ -2,7 +2,10 @@ let msg = {//视频、语音、文件 点击浏览
     header:{
         version:'1.0',
         mid:'',//uuid 消息id
-        action:'playReport'
+        uid:'',//发送者id
+        did:'',//发送者设备id
+        action:'playReport',
+        time:1234567
     },
     body:{
         chats:[{
