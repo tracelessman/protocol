@@ -33,9 +33,11 @@ data = {
 } //url
 //位置 
 data = {
-    longitude:343.98,//经度
-    latitude:34.8,//维度
-    title:''//位置信息
+    lat:383,//维度
+    lng:23,//经度
+    address:'',//地址信息
+    image:'base64',
+    title:''//标题
 }
 //音频
 data = {
