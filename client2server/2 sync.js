@@ -38,6 +38,7 @@ let ack = {
                 ext:{}
             },
             member:{
+                chatId:'',
                 status:0,
                 topTime:134567,//
                 unReadNum:88,//
@@ -73,6 +74,13 @@ let ack = {
             reporters:['uid']
         }],
         sentReadReports:[
+            'mid'
+        ],
+        receivedPlayReports:[{
+            mid:'',
+            reporters:['uid']
+        }],
+        sentPlayReports:[
             'mid'
         ]
     }

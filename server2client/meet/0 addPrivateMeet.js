@@ -4,14 +4,14 @@ let msg = {
         mid:'',//uuid 消息id
         uid:'',//发送者id
         did:'',//发送者设备id
-        name:'',//冗余数据
-        action:'addPrivateChat',
+        action:'addPrivateMeet',
         time:1234567
     },
     body:{
-        chatId:'',
-        oppositeUid:'',
-        pic:[{uid:'',url:'',name:''}] 
+        roomId:'',
+        thrRoomId:3456,
+        meetId:'',
+        meetType:0
     }
 }
 
