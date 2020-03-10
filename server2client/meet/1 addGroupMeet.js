@@ -12,7 +12,8 @@ let msg = {
         thrRoomId:3456,
         meetId:'',
         meetType:0,
-        meetName:''
+        meetName:'',
+        members:['uid'] //有可能没有值，取决于发起方是否添加了人
     }
 }
 
