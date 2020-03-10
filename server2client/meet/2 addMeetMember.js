@@ -22,6 +22,7 @@ let msg = {
         }] 
     },
     body:{//接听中的老成员接收到的body
+        meetId:'',
         members:[{ //所有新成员
             uid,
             name,
