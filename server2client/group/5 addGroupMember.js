@@ -16,7 +16,7 @@ let msg = {
         pic:[]
     },
     body:{ //新成员收到的body
-        members:[{//新成员
+        members:[{//所有成员
             uid:'',
             name:''
         }],//uid列表
