@@ -7,7 +7,7 @@ let msg = {
     body:{
         meetId:'uuid',
         enabled:true,
-        members:['uid']
+        members:['uid']//如果members没传值，就是改变自己的设置；如果传值了，且包含其他人，必须是master发起的
     }
 }
 
