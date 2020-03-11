@@ -7,7 +7,7 @@ let msg = {
     body:{
         meetId:'uuid',
         enabled:true,
-        withdrawn:true//开关权利是否收回
+        switch:true//开关权利是否收回
     }
 }
 

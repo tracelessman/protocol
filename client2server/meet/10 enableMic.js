@@ -6,7 +6,8 @@ let msg = {
     },
     body:{
         meetId:'uuid',
-        enabled:true
+        enabled:true,
+        members:['uid']
     }
 }
 
