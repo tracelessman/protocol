@@ -2,7 +2,7 @@ let msg = {
     header:{
         version:'1.0',
         mid:'',//uuid 消息id
-        action:'handleOut'
+        action:'hangUp'
     },
     body:{
         meetId:'uuid'
