@@ -5,13 +5,16 @@ let msg = {//视频、语音、文件 点击浏览
         action:'playReport'
     },
     body:{
-        chats:[{
-            chatId:'',
-            targets:[{
-                uid:'',
-                msgIds:[]
-            }]
-        }]
+        // chats:[{
+        //     chatId:'',
+        //     targets:[{
+        //         uid:'',
+        //         msgIds:[]
+        //     }]
+        // }]
+        chatId:'',
+        mid:'',
+        targetUid:''
     }
 }
 let ack = {

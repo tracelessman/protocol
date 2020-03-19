@@ -7,8 +7,8 @@ let msg = {
     body:{
         chats:[{
             chatId:'',
-            firstMsgId:'',
-            firstMsgOrder:'',
+            // firstMsgId:'',
+            // firstMsgOrder:'',
             lastMsgId:'',//chat内最后一条已读消息的id
             lastMsgOrder:'',
             targetUids:[] //报告目标 也就是未读消息的发送者

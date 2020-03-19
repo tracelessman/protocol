@@ -8,13 +8,15 @@ let msg = {//视频、语音、文件 点击浏览
         time:1234567
     },
     body:{
-        chats:[{
-            chatId:'',
-            targets:[{
-                uid:'',
-                msgIds:[]
-            }]
-        }]
+        // chats:[{
+        //     chatId:'',
+        //     targets:[{
+        //         uid:'',
+        //         msgIds:[]
+        //     }]
+        // }]
+        chatId:'',
+        mid:''
     }
 }
 let ack = {
