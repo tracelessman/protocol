@@ -69,6 +69,18 @@ let ack = {
                 data:data//见data
             }
         }],
+        offlineReminders:[{
+            reminderId:'',//reminder id
+            text:'',
+            channel:0,
+            status:0,
+            chatId:'',
+            mid:'',
+            uid:'',
+            did:'',
+            time:1222231,
+            order:'',
+        }],
         receivedReadReports:[{
             mid:'',
             reporters:['uid']
@@ -82,6 +94,13 @@ let ack = {
         }],
         sentPlayReports:[
             'mid'
-        ]
+        ],
+        receivedReminderReadReports:[{
+            reminderId:'',
+            reporters:['uid']
+        }],
+        sentReminderReadReports:[
+            'reminderId'
+        ],
     }
 }
