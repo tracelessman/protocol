@@ -5,13 +5,10 @@ let msg = {
         action:'readReport'
     },
     body:{
-        chats:[{
-            chatId:'',
-            // firstMsgId:'',
-            // firstMsgOrder:'',
-            lastMsgId:'',//chat内最后一条已读消息的id
-            lastMsgOrder:'',
-            targetUids:[] //报告目标 也就是未读消息的发送者
+        chatId:'',
+        reports:[{
+            targetUid:'',
+            mids:[]
         }]
     }
 }

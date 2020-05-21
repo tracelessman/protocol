@@ -8,12 +8,10 @@ let msg = {
         time:124343
     },
     body:{
-        chats:[{
-            chatId:'',
-            // firstMsgId:'',
-            // firstMsgOrder:'',
-            lastMsgId:'',//chat内最后一条已读消息的id
-            lastMsgOrder:''
+        chatId:'',
+        reports:[{
+            targetUid:'',
+            mids:[]
         }]
     }
 }
