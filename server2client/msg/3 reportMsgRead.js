@@ -7,12 +7,16 @@ let msg = {
         action:'readReport',
         time:124343
     },
-    body:{
+    body:{//自己转发给自己设备格式
         chatId:'',
         reports:[{
             targetUid:'',
             mids:[]
         }]
+    },
+    body:{//收到被人给自己的已阅报告
+        chatId:'',
+        mids:[]
     }
 }
 
