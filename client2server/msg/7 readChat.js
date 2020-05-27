@@ -2,14 +2,10 @@ let msg = {
     header:{
         version:'1.0',
         mid:'',//uuid 消息id
-        action:'reportMsgRead'
+        action:'readChat'
     },
     body:{
         chatId:'',
-        reports:[{
-            targetUid:'',
-            mids:[]
-        }],
         readCursor:{
             mid:'',
             seqId:''
@@ -26,5 +22,14 @@ let ack = {
         mid:'',
         status:0,
         err:'',
+        msgs:[
+            {
+                msg:{},
+                msgReaders:[],
+                msgPlayers:[],
+                reminder:{},
+                reminderReaders:[]
+            }
+        ],
     }
 }
